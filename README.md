@@ -25,8 +25,8 @@ This repo focuses on:
 
 - real-world trade-offs
 - engineering complaints
-- interview-ready explanations
-- system design thinking
+- practical system design thinking
+- implementation-oriented engineering education
 
 ## Commit Convention
 
