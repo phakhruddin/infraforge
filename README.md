@@ -19,6 +19,10 @@
 ### Zero Trust Architecture
 - ./experiments/zero-trust/
 
+## Documentation
+
+- ./docs/style.md
+
 ## Philosophy
 
 This repo focuses on:
