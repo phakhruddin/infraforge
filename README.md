@@ -1,6 +1,6 @@
 # infraforge
 
-**Real-world cloud architecture patterns at scale — including the nuance, trade-offs, and engineering complaints that do not always show up in polished reference diagrams.**
+**Real-world cloud architecture patterns at scale, including the nuance, trade-offs, and engineering complaints that do not always show up in polished reference diagrams.**
 
 ## Experiments
 
