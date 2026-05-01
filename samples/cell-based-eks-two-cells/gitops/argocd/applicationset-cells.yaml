@@ -1,0 +1,26 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: cell-apps
+spec:
+  generators:
+    - list:
+        elements:
+          - cell: cell-a
+          - cell: cell-b
+  template:
+    metadata:
+      name: '{{cell}}-app'
+    spec:
+      project: default
+      source:
+        repoURL: https://example.com/repo.git
+        targetRevision: HEAD
+        path: gitops/apps/overlays/{{cell}}
+      destination:
+        server: https://kubernetes.default.svc
+        namespace: '{{cell}}'
+      syncPolicy:
+        automated:
+          prune: true
+          selfHeal: true
