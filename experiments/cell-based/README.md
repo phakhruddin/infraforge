@@ -4,8 +4,10 @@ This section documents the cell-based architecture operating model, including de
 
 ## Documents
 
-- [`rfc.md`](./rfc.md) — formal architecture design (problem, constraints, design, alternatives, trade-offs, decision)
-- [`engineering-discovery.md`](./engineering-discovery.md) — practical insights and operational lessons
+- [`rfc.md`](./rfc.md)
+- [`engineering-discovery.md`](./engineering-discovery.md)
+- [`kubernetes-discussion-notes.md`](./kubernetes-discussion-notes.md)
+- [`kubernetes-cell-implementation.md`](./kubernetes-cell-implementation.md)
 
 ## Summary
 
@@ -13,4 +15,4 @@ Cell-based architecture splits a large platform into smaller isolated units call
 
 The primary trade-off is increased platform engineering complexity across routing, observability, deployment, and operations.
 
-Refer to the RFC document for the full design and decision rationale.
+Refer to the RFC and implementation blueprint for the full design and operational model.
