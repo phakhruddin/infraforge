@@ -63,7 +63,3 @@ Core complaint:
 - How are clusters discovered?
 - How is traffic routed?
 - How are deployments coordinated?
-
-## Interview Summary
-
-> Multi-cluster architecture improves isolation and scalability, but requires strong automation and fleet management to avoid operational overhead.

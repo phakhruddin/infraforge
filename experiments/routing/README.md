@@ -91,6 +91,6 @@ Ask these before choosing a routing model:
 - How do we observe routing decisions?
 - How do we roll back bad routing changes?
 
-## Interview Summary
+##  Summary
 
 > Routing strategy is not just traffic distribution. At scale, routing becomes a reliability and isolation mechanism. The strongest designs make routing decisions explicit, observable, and reversible.

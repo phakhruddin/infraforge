@@ -218,7 +218,3 @@ A strong Splunk-at-scale platform needs:
 | Secrets | AWS Secrets Manager, Kubernetes Secrets |
 | Observability of pipeline | CloudWatch, Splunk internal indexes, dashboards |
 | Automation | Terraform, CDK, GitHub Actions, Argo CD |
-
-## Interview Summary
-
-> At large scale, Splunk is not just a logging tool. It becomes a distributed ingestion platform. The hardest parts are protecting indexers from bursts, preventing noisy tenants from affecting everyone, keeping parsing consistent, and making observability cost-effective. A strong architecture uses buffering, routing, filtering, GitOps, and clear ownership to keep the platform reliable.

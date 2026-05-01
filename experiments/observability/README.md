@@ -73,6 +73,6 @@ Core complaint:
 - How do we reduce noise?
 - How do we scale cost?
 
-## Interview Summary
+##  Summary
 
 > Observability is about understanding system behavior, not just collecting data. The best systems make failures explainable, not just visible.

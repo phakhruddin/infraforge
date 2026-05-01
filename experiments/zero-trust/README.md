@@ -55,6 +55,6 @@ Core complaint:
 - where are policies enforced?
 - how is trust established between services?
 
-## Interview Summary
+##  Summary
 
 > Zero trust replaces network-based trust with identity-based trust. It improves security but requires strong identity, policy, and observability systems to operate effectively.
